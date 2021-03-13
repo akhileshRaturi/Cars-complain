@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComplainWelcomeComponent } from './complain-welcome/complain-welcome.component';
+import { ComplainHomeComponent } from './complain-home/complain-home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComplainWelcomeComponent
+    ComplainWelcomeComponent,
+    ComplainHomeComponent
   ],
   imports: [
     BrowserModule,
